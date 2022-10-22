@@ -18,7 +18,15 @@ jobs:
         uses: lewagon/wait-on-check-action@v1.2.0
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          check-name: 'test-bot'
+          check-name: 'test-bot (macos-12)'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 10
+
+      - name: Wait for tests to succeed
+        uses: lewagon/wait-on-check-action@v1.2.0
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          check-name: 'test-bot (ubuntu-22.04)'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
 
