@@ -21,6 +21,6 @@ class Gefyra < Formula
   end
 
   test do
-    system "gefyra", "--version"
+    system "gefyra", "version"
   end
 end
