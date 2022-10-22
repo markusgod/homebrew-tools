@@ -15,7 +15,7 @@ class Gefyra < Formula
   def install
     system "pyoxidizer", "build",  "exe", "--release"
     system "cp `find build/ -name \"gefyra\"` ../gefyra"
-    system "strip" "-s" "../gefyra"
+    system "strip", "-s", "../gefyra"
     bin.install "../gefyra"
   end
 
