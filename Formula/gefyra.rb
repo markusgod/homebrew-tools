@@ -10,6 +10,11 @@ class Gefyra < Formula
     url :stable
   end
 
+  bottle do
+    root_url "https://github.com/markusgod/homebrew-tools/releases/download/gefyra-0.12.0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "6bc54314030906d6ab5db1d7aebdece33f31cf8305c50063a400bddd1b44be8b"
+  end
+
   depends_on "pyoxidizer" => :build
 
   def install
