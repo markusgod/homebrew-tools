@@ -14,7 +14,7 @@ class Gefyra < Formula
   depends_on "pyoxidizer" => :build
 
   def install
-    system "cd", "client"
+    cd "client"
     system "pyoxidizer", "build",  "exe", "--release"
     system "cp `find build/ -name \"gefyra\"` ../gefyra"
     system "strip", "-s", "../gefyra"
