@@ -4,7 +4,6 @@ class Gefyra < Formula
   url "https://github.com/gefyrahq/gefyra/archive/refs/tags/0.11.4.tar.gz"
   sha256 "e89f99b78c08647f1bee267b8712ef3bfe5f999cc98db339fadd0aeb26d6ed98"
   license "Apache-2.0"
-  revision 1
   head "https://github.com/gefyrahq/gefyra.git", branch: "main"
 
   livecheck do
