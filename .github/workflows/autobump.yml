@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   autobump:
-    if: github.repository == 'Homebrew/homebrew-core'
+    if: github.repository == 'markusgod/homebrew-tools'
     runs-on: ubuntu-22.04
     container:
       image: ghcr.io/homebrew/ubuntu22.04:master

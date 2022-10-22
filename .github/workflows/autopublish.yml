@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   autopublish:
-    if: github.repository == 'Homebrew/homebrew-core'
+    if: github.repository == 'markusgod/homebrew-tools'
     runs-on: ubuntu-22.04
     steps:
       - name: Set up Homebrew
