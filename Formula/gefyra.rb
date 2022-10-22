@@ -1,10 +1,10 @@
 class Gefyra < Formula
   desc "Blazingly-fast, rock-solid, local application development with Kubernetes"
   homepage "https://gefyra.dev"
-  url "https://github.com/gefyrahq/gefyra.git",
-      tag:      "v0.11.4",
-      revision: "6ec33ca18e9423c62219bf913ae97bc6c0d84118"
+  url "https://github.com/gefyrahq/gefyra/archive/refs/tags/0.11.4.tar.gz"
   license "Apache-2.0"
+  revision 1
+  head "https://github.com/gefyrahq/gefyra.git", branch: "master"
 
   livecheck do
     url :stable
