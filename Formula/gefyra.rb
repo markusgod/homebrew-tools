@@ -19,7 +19,7 @@ class Gefyra < Formula
 
   def install
     cd "client"
-    system "pyoxidizer", "build",  "exe", "install", "--release"
+    system "pyoxidizer", "build", "exe", "install", "--release"
   end
 
   test do
