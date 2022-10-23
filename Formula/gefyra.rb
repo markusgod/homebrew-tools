@@ -20,7 +20,8 @@ class Gefyra < Formula
   def install
     cd "client"
     system "pyoxidizer", "build",  "exe", "--release"
-    system "cp `find build/ -name \"gefyra\"` ../gefyra" unless OS.mac?
+    system "cp `find build/ -name \"gefyra\"` ../gefyra"
+    system "strip", "-s", "../gefyra" unless OS.mac?
     bin.install "../gefyra"
   end
 
