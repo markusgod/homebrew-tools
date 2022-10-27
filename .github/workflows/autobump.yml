@@ -15,6 +15,7 @@ env:
   FORMULAE: >
     telepresence
     gefyra
+    helmfile
 
 permissions:
   contents: read
