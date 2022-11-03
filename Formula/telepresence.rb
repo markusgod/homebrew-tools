@@ -12,9 +12,9 @@ class Telepresence < Formula
   end
 
   bottle do
-    root_url "https://github.com/markusgod/homebrew-tools/releases/download/telepresence-2.8.3"
-    sha256 cellar: :any_skip_relocation, monterey:     "4d5a2ff8d19c157b33ac3f71cca2b8d3041df4e80c4be7616cb63b45e3301e06"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "22d47303bfed87f0b7e1bc9cc27873fad103858cd88b218600005ac3efd63218"
+    root_url "https://github.com/markusgod/homebrew-tools/releases/download/telepresence-2.8.5"
+    sha256 cellar: :any_skip_relocation, monterey:     "751b2310ba8392a204dc18097064db90490feff0635b174f2888f7ea751be605"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e605f43ee115d2589cf298627fbe5c18bff2a943e18ea7e13408083623f578d3"
   end
 
   depends_on "go" => :build
