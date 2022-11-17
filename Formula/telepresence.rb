@@ -2,8 +2,8 @@ class Telepresence < Formula
   desc "Fast, efficient local development for Kubernetes microservices"
   homepage "https://www.telepresence.io"
   url "https://github.com/telepresenceio/telepresence.git",
-      tag:      "v2.9.1",
-      revision: "51113aee6f9be8e8807bf9a06065b3163dd53936"
+      tag:      "v2.9.2",
+      revision: "5d38d50bd427dfcb7ff229c4aee5e30921719e0c"
   license "Apache-2.0"
 
   livecheck do
