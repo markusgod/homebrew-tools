@@ -1,8 +1,8 @@
 class Gefyra < Formula
   desc "Blazingly-fast, rock-solid, local application development with Kubernetes"
   homepage "https://gefyra.dev"
-  url "https://github.com/gefyrahq/gefyra/archive/refs/tags/0.13.3.tar.gz"
-  sha256 "b8e6df01f8450979b3ed82c1df86a9f678a044eb4c70089cdd6efb3103f5973a"
+  url "https://github.com/gefyrahq/gefyra/archive/refs/tags/0.13.4.tar.gz"
+  sha256 "137cc444280894b865b1297191604488bebd60b845d0a0302a7e8b7e8868e93a"
   license "Apache-2.0"
   head "https://github.com/gefyrahq/gefyra.git", branch: "main"
 
