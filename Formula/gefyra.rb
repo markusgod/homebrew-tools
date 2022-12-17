@@ -11,9 +11,8 @@ class Gefyra < Formula
   end
 
   bottle do
-    root_url "https://github.com/markusgod/homebrew-tools/releases/download/gefyra-0.13.3"
-    sha256 cellar: :any_skip_relocation, monterey:     "266bd7299ca155e354aef7d764e271ca40cdbae43f61d092ceada060be64a86c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f671e835be43dc7dce32a90a91e74f01432fae7e955b68d5cd7b8547313853dd"
+    root_url "https://github.com/markusgod/homebrew-tools/releases/download/gefyra-1.0.0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b6c8b0c8214afa9906841abe9dae5411ea5213f4837835e39d79a03412da2d36"
   end
 
   depends_on "pyoxidizer" => :build
